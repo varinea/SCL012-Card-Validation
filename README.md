@@ -1,3 +1,13 @@
+## Readme
+
+# Diseño
+Tome la decicion de hacer un diseño animalista, simple y limpio, lo mas parecido posible a Instagram ya que de ahí vienen las tiendas
+y es desde esa aplicacion de donde son direccionados normalmente los usuarios de esta página, entonces, una forma de que el usuario
+no pierda de vista el punto principal que es la compra de los productos que nos muestra instagram es que se decidio mantener
+un diseño muy similar, pero con ciertos dferenciadores que caracterizan a nuestra página.
+
+
+
 # Tarjeta de crédito válida
 
 ## Índice
