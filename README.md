@@ -22,6 +22,7 @@ Para poder iniciar con este proyecto se comenzo investigando mas sobre la mini e
 ¿Que redes sociales utiliza?
 ¿Como es su diseño en general y que comunica con el?
 
+***
 
 # Investigacion Cliente
  - Formas de comunicación con el cliente
@@ -31,6 +32,7 @@ Para poder iniciar con este proyecto se comenzo investigando mas sobre la mini e
  Observacion: Nuetsro cliente da poco comunicacion con su pagina de Instagram ya que la utiliza tanto para
  promocionar sus productos como para mostrar su vida personal, lo mismo sucede con Facebook, no es claro lo que esta vendiendo y el usuario no tiene forma clara de comunicarse con ella, tambien, en cliente demora en responderle a los usuarios.
 
+***
 
  # Investigacion Usuario
 
@@ -39,6 +41,7 @@ al consumidor de hermosas plantas y arreglos florales.
 
 Basado en una investigacion y haciendo formularios via GOOGLE 
 
+***
 
 # Tarjeta de crédito válida
 
