@@ -1,11 +1,43 @@
 ## Readme
 
-# Diseño
-Tome la decicion de hacer un diseño animalista, simple y limpio, lo mas parecido posible a Instagram ya que de ahí vienen las tiendas
-y es desde esa aplicacion de donde son direccionados normalmente los usuarios de esta página, entonces, una forma de que el usuario
-no pierda de vista el punto principal que es la compra de los productos que nos muestra instagram es que se decidio mantener
-un diseño muy similar, pero con ciertos dferenciadores que caracterizan a nuestra página.
+# FioreDeco
+ FioreDeco es una pequeña empresa familiar dedicada a la producción y comercialización de plantas ornamentales, confecciones y
+ desinfección de jardines desde 1997.
 
+ ***
+
+# Tabla de Contenido
+* Iniciación, principales solicitudes y problemas visibles de los solicitado por cliente.
+* Investigacion Cliente
+* Investigación de Usuario
+* Prototipos de diseño
+
+En este proyecto FioreDeco solicito servicios de la creación de una página web en donde su mayor preocupación
+es que sus clientes puedan familiarizarse con sus productos y poder comprar en ella.
+
+Para poder iniciar con este proyecto se comenzo investigando mas sobre la mini empresa 
+¿De donde son?
+¿Como se comunica con el cliente?
+¿Que venden?
+¿Que redes sociales utiliza?
+¿Como es su diseño en general y que comunica con el?
+
+
+# Investigacion Cliente
+ - Formas de comunicación con el cliente
+
+ IMAGENES
+
+ Observacion: Nuetsro cliente da poco comunicacion con su pagina de Instagram ya que la utiliza tanto para
+ promocionar sus productos como para mostrar su vida personal, lo mismo sucede con Facebook, no es claro lo que esta vendiendo y el usuario no tiene forma clara de comunicarse con ella, tambien, en cliente demora en responderle a los usuarios.
+
+
+ # Investigacion Usuario
+
+Normalmente la gente desea comprar plantas decorativas para sus hogares, trabajos, etc, esta mini emresa proveer
+al consumidor de hermosas plantas y arreglos florales.
+
+Basado en una investigacion y haciendo formularios via GOOGLE 
 
 
 # Tarjeta de crédito válida
