@@ -29,7 +29,34 @@ Para poder iniciar con este proyecto se comenzo investigando mas sobre la mini e
 
  IMAGENES
 
- Observacion: Nuetsro cliente da poco comunicacion con su pagina de Instagram ya que la utiliza tanto para
+Debido a los acontecimientos surgidos por el país se hicieron diferentes entrevistas via telefonica y via email con el cliente.
+
+ Entrevista con Cliente via correo electronico.
+
+ Tamara Zamorano, creadora de FioreDeco.
+
+ Cuenteme un poco sobre los productos que usted vende.
+
+ - Lo nuestro es la venta de plantas, nosotros tenemos un vivero donde resguardamos un monton
+ de plantas tanto medicinales, como decorativas. Tambien tenemos algunas exoticas.
+ Siempre resguardamos que sean plantas saludables y bonitas para nuestros clientes.
+
+ ¿Cuales son las plantas que mas ventas a generado alrededor de los años que llevan vendiendolas?
+ - Siempre las favoritas son las decorativas, ultimamente han subido las ventas de las medicinales o comestibles,
+ pero siempre las decorativas llevan el primer lugar, por años a sido así.
+
+ ¿Cual es el diferenciador que tienen sus plantas con el resto de los que venden este producto?
+ - No suelo compararme con la competencia, me gusta que mi negocio sea algo mas que solo algo lucrativo, pero puedo asegurar que nuestras plantas son muy bien cuidadas y queridas.
+
+ ¿A que se refiere con "algo mas que solo lucrativo"?
+ - No me gusta que se vean las plantas como un negocio, claro, yo estoy vendiendo plantas, suena ironico pero tambien las quiero cuando las 
+siembro siempre les doy amor, les hablo a mis plantas, me preocupo que esten saludables y por eso mismo me gustaria transmitir ese amor a mis clientes y que sepan que mis plantas son queridas por eso florecen mas hermosas y espero que mis clientes hagan lo mismo que yo.
+
+
+
+
+ 
+ Nuetsro cliente da poco comunicacion con su página de Instagram ya que la utiliza tanto para
  promocionar sus productos como para mostrar su vida personal, lo mismo sucede con Facebook, no es claro lo que esta vendiendo y el usuario no tiene forma clara de comunicarse con ella, tambien, en cliente demora en responderle a los usuarios.
 
 ***
