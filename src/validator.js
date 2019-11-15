@@ -1,5 +1,5 @@
 //Creamos funcion isValidCard:
-function isValidCard(number){
+function cardValidation(number){
   
   //Creamos un array vacio:
   arr=[];
@@ -35,12 +35,13 @@ function isValidCard(number){
 
 }
 
-
 //Llamamos a la funcion y condicionamos para saber si es una tarjeta valida:
-if (isValidCard(prompt('Ingrese numero de Tarjeta')) % 10 == 0){
+if (cardValidation(prompt('Ingrese numero de Tarjeta')) % 10 == 0){
 
     alert('Tarjeta Valida');
-}else{
+}
+
+else{
 
     alert('Tarjeta Invalida')
 }

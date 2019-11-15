@@ -1,0 +1,11 @@
+/*--------CABECERA FIJA----------*/
+div#conteiner-body { 
+margin: auto;
+margin-top:50px;
+width: 960px;
+height: 800;
+background-color: blueviolet;
+
+}
+
+

@@ -35,11 +35,19 @@ Debido a los acontecimientos surgidos por el país se hicieron diferentes entrev
 
  Tamara Zamorano, creadora de FioreDeco.
 
- Cuenteme un poco sobre los productos que usted vende.
+Haciendo un pequeña introduccion a la entrevista comenzamos.
+
+ Cuentame un poco sobre los productos que usted vende.
 
  - Lo nuestro es la venta de plantas, nosotros tenemos un vivero donde resguardamos un monton
- de plantas tanto medicinales, como decorativas. Tambien tenemos algunas exoticas.
+ de plantas tanto medicinales, como decorativas, tambien tenemos algunas exoticas.
  Siempre resguardamos que sean plantas saludables y bonitas para nuestros clientes.
+
+ ¿Desde cuando esta en el negocio de ventas de plantas?
+- Mi madre comenzo por allá en el 2014 en Valparaiso, ella vendia pequeñas plantas que tenia en el jardin, ya que la tierra de su jardin 
+era muy buena, las flores y arboles eran realmente preciosas, pronto le comenzo a ir bien y así comenzamos a vender todo tipo de flores a la gente del sector, ahora yo quisiera seguir este proyecto aun que a veces no hay mucho tiempo para subir imagenes y encargarse de todos los clientes que nos solicitan flores.
+
+¿Entonces piensas que una página te ayudaria a  
 
  ¿Cuales son las plantas que mas ventas a generado alrededor de los años que llevan vendiendolas?
  - Siempre las favoritas son las decorativas, ultimamente han subido las ventas de las medicinales o comestibles,
