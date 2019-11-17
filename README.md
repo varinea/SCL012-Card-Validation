@@ -31,9 +31,9 @@ Para poder iniciar con este proyecto se comenzo investigando mas sobre la mini e
 
 Debido a los acontecimientos surgidos por el país se hicieron diferentes entrevistas via telefonica y via email con el cliente.
 
- Entrevista con Cliente via correo electronico.
+Entrevista con Cliente via correo electronico.
 
- Tamara Zamorano, creadora de FioreDeco.
+Vanessa Ibarra, 35 años, Quinesiologa de profesión, creadora de FioreDeco.
 
 Haciendo un pequeña introduccion a la entrevista comenzamos.
 
@@ -47,25 +47,33 @@ Haciendo un pequeña introduccion a la entrevista comenzamos.
 - Mi madre comenzo por allá en el 2014 en Valparaiso, ella vendia pequeñas plantas que tenia en el jardin, ya que la tierra de su jardin 
 era muy buena, las flores y arboles eran realmente preciosas, pronto le comenzo a ir bien y así comenzamos a vender todo tipo de flores a la gente del sector, ahora yo quisiera seguir este proyecto aun que a veces no hay mucho tiempo para subir imagenes y encargarse de todos los clientes que nos solicitan flores.
 
-¿Entonces piensas que una página te ayudaria a  
+¿Entonces piensas que una página web te ayudaria en ese sentido?
 
- ¿Cuales son las plantas que mas ventas a generado alrededor de los años que llevan vendiendolas?
- - Siempre las favoritas son las decorativas, ultimamente han subido las ventas de las medicinales o comestibles,
+- Si, por lo menos creo que la gente no estaria preguntandome precios, información sobre que plantas tengo.
+
+-¿Cuales son los principales dolores de cabeza que te a dado este trabajo?
+- La atención al publico, algunas personas son muy amables y comprensivas, otras no tanto.
+
+ ¿Cuales son las plantas que mas ventas a generado en los años que llevan vendiendolas?
+ - Siempre las favoritas son las decorativas, flores, arboles, ultimamente han subido las ventas de las medicinales o comestibles,
  pero siempre las decorativas llevan el primer lugar, por años a sido así.
 
  ¿Cual es el diferenciador que tienen sus plantas con el resto de los que venden este producto?
- - No suelo compararme con la competencia, me gusta que mi negocio sea algo mas que solo algo lucrativo, pero puedo asegurar que nuestras plantas son muy bien cuidadas y queridas.
+ - No suelo compararme con la competencia, me gusta que mi negocio sea algo mas que solo algo lucrativo, pero puedo asegurar que nuestras plantas son muy bien cuidadas y queridas, me preocupa que asi como yo ayude a esas plantas a crecer mis clientes hagan lo mismo una vez se las hayan llevado.
 
  ¿A que se refiere con "algo mas que solo lucrativo"?
- - No me gusta que se vean las plantas como un negocio, claro, yo estoy vendiendo plantas, suena ironico pero tambien las quiero cuando las 
+ - No me gusta que se vean las plantas como un negocio, claro, yo estoy vendiendo plantas, suena ironico pero tambien las quiero, cuando las 
 siembro siempre les doy amor, les hablo a mis plantas, me preocupo que esten saludables y por eso mismo me gustaria transmitir ese amor a mis clientes y que sepan que mis plantas son queridas por eso florecen mas hermosas y espero que mis clientes hagan lo mismo que yo.
 
+En tu página web ¿Que te gustaría ver?
+- Quiero que sea clara en que estamos vendiendo, que hayan plantas, como estilo la casa de las flores jajaja, todo bien natural en la pagina, que se cuente mi historia y la de mi familia, de por que queremos que los clientes sepan que se llevan plantas bien cuidadas, que los cliente sepan los pasos a seguir en como cuidar una planta, eso en general.
 
+Teniendo estos datos comenzare a realizar prototipos donde ire enseñandotelos para que así posteriormente vayas evaluando el proceso y quedemos en comun acuerdo con el diseño y la usabilidad de la página.
 
+Gracias por cooperar con mi proyecto.
 
+-No gracias a ti por encontrar mi Instagram y darme ideas con esto de la página web.
  
- Nuetsro cliente da poco comunicacion con su página de Instagram ya que la utiliza tanto para
- promocionar sus productos como para mostrar su vida personal, lo mismo sucede con Facebook, no es claro lo que esta vendiendo y el usuario no tiene forma clara de comunicarse con ella, tambien, en cliente demora en responderle a los usuarios.
 
 ***
 
