@@ -10,7 +10,7 @@ function luhnCheck(){  //Aqui veremos si la información entregada es real, asi 
   var ccNumSplit = ccNum.split("") //con split estamos dividiendo para convertirlo en una serie de cadenas
   var sum = 0;  // sumamos
   var singleNums = [] //array vacia
-  var doubleNums = []  //doble array vacia
+  var doubleNums = [] 
   var finalArry = undefined; //
   var validCard = false;
   
@@ -24,17 +24,17 @@ function luhnCheck(){  //Aqui veremos si la información entregada es real, asi 
      return false;  
   }
 
-  if(ccNum.length === 15){  //american express 
+  if(ccNum.length === 15){  
      for(var i = ccNumSplit.length-1; i>=0; i--){  //en for coloco -- para que comienze por la derecha 
-        if(i % 2 === 0){ //
+        if(i % 2 === 0){ //Aqui le digo con % si el modulo 2 es igual a 0
            singleNums.push(ccNumSplit[i]);
         }else{
-           doubleNums.push((ccNumSplit[i] * 2).toString());
+           doubleNums.push((ccNumSplit[i] * 2).toString()); // aca multiplico *2 la variable doubleNum 
         }
      }
   }else if(ccNum.length === 16){
      for(var i = ccNumSplit.length-1; i>=0; i--){
-        if(i % 2 !== 0){
+        if(i % 2 !== 0){ //AQUI OBTENGO LA POSICION PAR DE CC
            singleNums.push(ccNumSplit[i]);
         }else{
            doubleNums.push((ccNumSplit[i] * 2).toString());
@@ -62,7 +62,6 @@ function luhnCheck(){  //Aqui veremos si la información entregada es real, asi 
 }
 
 function whatCard(){
-   
 }
 
 document.getElementById("submitBtn").addEventListener("click", function(){ //Evento DOM Aqui se le da la respuesta al usuario despues de que haya apretado el boton para saber la respuesta
