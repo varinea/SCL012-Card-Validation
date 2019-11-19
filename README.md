@@ -73,6 +73,18 @@ Teniendo estos datos comenzare a realizar prototipos donde ire enseñandotelos p
 Gracias por cooperar con mi proyecto.
 
 -No gracias a ti por encontrar mi Instagram y darme ideas con esto de la página web.
+
+
+
+
+/////////////////////////
+
+elimine en el prototipo final el carrito de compras ya que los usuarios lo usaban y no tenia funcionalidad llevarlos a una
+pagina para que solo ingresara a ver su tarjeta de validacion, preferí dejar esa opcion en la parte de compras.
+
+
+
+//////////////////////
  
 
 ***

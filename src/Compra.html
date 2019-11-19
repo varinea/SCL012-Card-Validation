@@ -1,97 +1,93 @@
 <!DOCTYPE HTML>
-<!--
-	Alpha by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
-	<head>
-		<title>FioreDeco - Compra</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="style.css" />
-	</head>
-	<body class="is-preload">
-		<div id="page-wrapper">
+<head>
+	<title>FioreDeco - Compra</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="style.css" />
+</head>
 
-			<!-- Header -->
-				<header id="header">
-					<h1><a href="index.html">Alpha</a> by HTML5 UP</h1>
-					<nav id="nav">
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li>
-								<a href="#" class="icon solid fa-angle-down">Layouts</a>
-								<ul>
-									<li><a href="index.html">Home</a></li>
-									<li><a href="contact.html">Contact</a></li>
-									<li><a href="elements.html">Elements</a></li>
-									
-								</ul>
-							</li>
-							
-						</ul>
-					</nav>
-				</header>
+<body class="is-preload">
+	<div id="page-wrapper">
 
-			<!-- Main -->
-				<section id="main" class="container medium">
-					<header>
-						<h2>Validacion de Tarjeta</h2>
-						<p>Para poder realizar una compra en nuestra tienda debes validar tu tarjeta de crédito primero</p>
-					</header>
-					<div class="box">
-						<form method="post" action="#">
-							<div class="row gtr-50 gtr-uniform">
-                      <div class="col-12">
-                            <input type="text" name="subject" size="25"id="userNum" value="" placeholder="Número de Tarjeta" />
-                            <!--  lugar donde el usuario me ingresara los numeros  -->
-                         </div>
-                        
-                        
-                        <div class="col-6 col-12-mobilep">
-									<input type="text" name="name" id="name" value="" placeholder="Fecha de Expiración" />
-								</div> 
-								<div class="col-6 col-12-mobilep">
-									<input type="email" name="email" id="email" value="" placeholder="cvv" />
-								</div>
-								
-								<div class="col-12">
-									
-                              <input type="submit" value="Validar" id="submitBtn" placeholder="Validar"/>
-                              <!--  boton para que el usuario vea su repsuesta  -->
-                              
-									
-								</div>
-							</div>
-						</form>
-               </div>
-               <div id="resultDiv"></div>
-				</section>
+		<!-- Header -->
+		<header id="header">
+			<h1><a href="index.html">FIOREDECO</a></h1>
+			<nav id="nav">
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+						<a href="plantas.html">Plantas</a>
+				        <a href="vivero.html">Vivero</a>
+					    <a href="cuidalas.html">Cuidados</a>
+						<a href="compra.html">Carrito de Compras</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
 
-			<!-- Footer -->
-				<footer id="footer">
-					<ul class="icons">
-						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-						<li><a href="#" class="icon brands fa-google-plus"><span class="label">Google+</span></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</footer>
+		<!-- Main -->
+		<section id="main" class="container medium">
+			<header>
+				<h2>Validacion de Tarjeta</h2>
+				<p>Para poder realizar una compra en nuestra tienda debes validar tu tarjeta de crédito primero</p>
+			</header>
+			<div class="box">
+				<form method="post" action="#"></form>
+				<div class="row gtr-50 gtr-uniform">
+					<div class="col-12">
+						<input type="text" name="subject" size="25" id="userNum" value=""
+							placeholder="Número de Tarjeta" />
+						<!--  lugar donde el usuario me ingresara los numeros  -->
+					</div>
 
-		</div>
 
-		<!-- Scripts -->
-      <script src="index.js"></script> 
-      <script src="validator.js"></script>
+					<div class="col-6 col-12-mobilep">
+						<input type="text" name="name" id="name" value="" placeholder="Fecha de Expiración" />
+					</div>
+					<div class="col-6 col-12-mobilep">
+						<input type="email" name="email" id="email" value="" placeholder="cvv" />
+					</div>
 
-	</body>
+					<div class="col-12">
+
+						<input type="submit" value="Validar" id="submitBtn" placeholder="Validar" />
+						<div class="window" id="openWindow">
+						</div>
+						<!--  boton para que el usuario vea su repsuesta  -->
+
+					</div>
+
+
+				</div>
+				</form>
+			</div>
+
+
+			<div id="resultDiv"></div>
+		</section>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<ul class="icons">
+				<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+				<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+				<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+				<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+			</ul>
+			<ul class="copyright">
+				<li> <b>Información de Contacto </b> <br> E-mail: ventas@FloresDeco.cl <br> Teléfono: 9-83607744</li>
+				<li><b>Dirección:</b> <br> Camino el Mariscal 1970, San Bernardo, <br> Región Metropolitana</li>
+				<li><b>Horario:</b> <br> Lunes a Viernes de 9:00 am a 17:00 pm <br> Sábado de 9:00 am a 14:00 pm
+			</ul>
+		</footer>
+	</div>
+
+	<!-- Scripts -->
+
+	<script src="index.js"></script>
+	<script src="validator.js"></script>
+
+</body>
+
 </html>
-
-
-

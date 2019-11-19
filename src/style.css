@@ -1,7 +1,15 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 
+/*
+	Alpha by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
 
+/* Reset */
+
+/* Based on meyerweb.com/eric/tools/css/reset (v2.0 | 20110126 | License: public domain) */
 
 	html, body, div, span, applet, object,
 	iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -22,7 +30,53 @@
 		vertical-align: baseline;
 	}
 
+	article, aside, details, figcaption, figure,
+	footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
 
+	body {
+		line-height: 1;
+	}
+
+	ol, ul {
+		list-style: none;
+	}
+
+	blockquote, q {
+		quotes: none;
+	}
+
+		blockquote:before, blockquote:after, q:before, q:after {
+			content: '';
+			content: none;
+		}
+
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+
+	body {
+		-webkit-text-size-adjust: none;
+	}
+
+	mark {
+		background-color: transparent;
+		color: inherit;
+	}
+
+	input::-moz-focus-inner {
+		border: 0;
+		padding: 0;
+	}
+
+	input, select, textarea {
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+	}
 
 /* Basic */
 
@@ -51,7 +105,7 @@
 	}
 
 	body {
-		background: #ffffff;
+		background: #f5f5f5;
 	}
 
 	body, input, select, textarea {
@@ -63,6 +117,19 @@
 		letter-spacing: -0.015em;
 	}
 
+	a {
+		-moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+		border-bottom: dotted 1px;
+		color: #e89980;
+		text-decoration: none;
+	}
+
+		a:hover {
+			border-bottom-color: transparent;
+		}
 
 	strong, b {
 		color: #646464;
@@ -2047,7 +2114,7 @@
 		}
 
 	select {
-	
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23e5e5e5' /%3E%3C/svg%3E");
 		background-size: 1.25em;
 		background-repeat: no-repeat;
 		background-position: calc(100% - 1em) center;
@@ -2259,7 +2326,7 @@
 				}
 
 		.box.special {
-			text-align: center;
+			text-align: left;
 		}
 
 		.box .image.featured {
@@ -2277,8 +2344,8 @@
 			}
 
 			.box .image.featured:first-child {
-				border-radius: 6px 6px 0 0;
-				margin-bottom: 3em;
+				border-radius: 2px 2px 0 0;
+				margin-bottom: 1em;
 				margin-top: -3em;
 			}
 
@@ -2333,17 +2400,48 @@
 			font-family: 'Font Awesome 5 Brands';
 		}
 
+
 		.icon.major {
-			
+			background: #666;
+			border-radius: 0%;
 			color: #ffffff;
-			cursor: default;
+		
 			display: inline-block;
-			height: 25em;
-			width: 25em;
+			
+			line-height: 5.5em;
+	
+			margin-top: 10%;
+			width: 100%;
 		}
 
-		
+			.icon.major:before {
+				font-size: 2.5em;
+			}
 
+			.icon.major.accent1 {
+				background: #666;
+				color: #ffffff;
+			}
+
+			.icon.major.accent2 {
+				background: #e89980;
+				color: #ffffff;
+			}
+
+			.icon.major.accent3 {
+				background: #7fcdb8;
+				color: #ffffff;
+			}
+
+			.icon.major.accent4 {
+				background: #90b0ba;
+				color: #ffffff;
+			}
+
+			.icon.major.accent5 {
+				background: #e5cb95;
+				color: #ffffff;
+			}
 
 /* Image */
 
@@ -2464,7 +2562,7 @@
 			vertical-align: middle;
 		}
 
-		ul.actions.special {
+		ul.actions.special { /* centra el menu principal */
 			-moz-justify-content: center;
 			-webkit-justify-content: center;
 			-ms-justify-content: center;
@@ -2638,6 +2736,32 @@
 
 /* Button */
 
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	.button {
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		background-color: #666;
+		border-radius: 6px;
+		border: 0;
+		color: #ffffff;
+		cursor: pointer;
+		display: inline-block;
+		font-weight: 400;
+		height: 3em;
+		line-height: 3em;
+		padding: 0 2em;
+		text-align: center;
+		text-decoration: none;
+		white-space: nowrap;
+	}
 
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
@@ -2808,7 +2932,7 @@
 		}
 	}
 
-	#header {  /* cabecera paginas  */
+	#header {
 		background: #444;
 		color: #bbb;
 		cursor: default;
@@ -3041,7 +3165,7 @@
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: #666;
-		background-image: url("img/overlay.png"), url("img/background.png");
+		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
@@ -3774,13 +3898,3 @@
 			}
 
 	}
-
-
-
-
-
-
-
-
-
-

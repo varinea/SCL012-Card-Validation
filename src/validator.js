@@ -54,16 +54,11 @@ function luhnCheck(){  //Aqui veremos si la información entregada es real, asi 
   if(sum % 10 === 0){
      validCard = true;
   }
-  //the console log is for you, so you can see the sum, all sums that are
-  //divisible by 10 should be good.  Just open up your console to view.
-  
-  console.log(sum);
   return validCard;
 }
 
-function whatCard(){
-}
+
 
 document.getElementById("submitBtn").addEventListener("click", function(){ //Evento DOM Aqui se le da la respuesta al usuario despues de que haya apretado el boton para saber la respuesta
    document.getElementById("resultDiv").innerHTML = luhnCheck();
-}, false);
+});
