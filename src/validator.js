@@ -27,9 +27,9 @@ function luhnCheck(){  //Aqui veremos si la información entregada es real, asi 
   if(ccNum.length === 15){  
      for(var i = ccNumSplit.length-1; i>=0; i--){  //en for coloco -- para que comienze por la derecha 
         if(i % 2 === 0){ //Aqui le digo con % si el modulo 2 es igual a 0
-           singleNums.push(ccNumSplit[i]);
+           singleNums.push(ccNumSplit[i]); //El método push() añade uno o más elementos al final de un array y devuelve la nueva longitud del array.
         }else{
-           doubleNums.push((ccNumSplit[i] * 2).toString()); // aca multiplico *2 la variable doubleNum 
+           doubleNums.push((ccNumSplit[i] * 2).toString()); // toString para devolver una cadena que representa al objeto. 
         }
      }
   }else if(ccNum.length === 16){
@@ -41,8 +41,6 @@ function luhnCheck(){  //Aqui veremos si la información entregada es real, asi 
         }
      }
   }
-  //joining makes an array to a string and I split them up again
-  //so that every number is a single digit and convert back to array
   
   doubleNums = doubleNums.join("").split("");  
   finalArry = doubleNums.concat(singleNums);
@@ -52,13 +50,23 @@ function luhnCheck(){  //Aqui veremos si la información entregada es real, asi 
   }
   
   if(sum % 10 === 0){
-     validCard = true;
+     validCard = true; 
   }
-  return validCard;
-}
+   
 
+     if(validCard === true){ 
+        console.log(validCard)
+     alert ("Tarjeta Valida");} 
 
+     else  
+      { alert ("Tarjeta Invalida");}
+   
+     }
 
-document.getElementById("submitBtn").addEventListener("click", function(){ //Evento DOM Aqui se le da la respuesta al usuario despues de que haya apretado el boton para saber la respuesta
-   document.getElementById("resultDiv").innerHTML = luhnCheck();
+document.getElementById("submitBtn").addEventListener("click", function(){
+   
+luhnCheck()
+   //Evento DOM Aqui se le da la respuesta al usuario despues de que haya apretado el boton para saber la respuesta
+   //document.getElementById("resultDiv").innerHTML = luhnCheck(); 
 });
+
