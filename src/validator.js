@@ -55,9 +55,10 @@ function luhnCheck(){  //Aqui veremos si la información entregada es real, asi 
    
 
      if(validCard === true){ 
-        console.log(validCard)
-     alert ("Tarjeta Valida");} 
+        console.log(validCard);
 
+     alert ("Tarjeta Valida");} 
+       
      else  
       { alert ("Tarjeta Invalida");}
    
