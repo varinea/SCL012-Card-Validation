@@ -580,7 +580,7 @@ width: 100%;
 		width: 100%;
 	}
 
-/* TEXTAREA  */
+/* TEXTAREA SUSCRÍBETE A NUESTRO NEWSLETTER */
 
 	input[type="text"],
 	input[type="password"],
@@ -604,7 +604,7 @@ width: 100%;
 		margin-right: -2em;
 		opacity: 0;
 		width: 1em;
-		z-index: -1;
+		
 	}
 
 		input[type="checkbox"] + label,

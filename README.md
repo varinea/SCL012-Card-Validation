@@ -126,6 +126,12 @@ la suma de sus dígitos finales es un múltiplo de 10.
 
 ![gráfica de algoritmo de Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
 
+![background](https://s03.s3c.es/imag/_v0/770x420/4/f/1/Planta-manos-tierra-iStock.jpg)
+
+sdfsofivjmodnfodifnodfngod
+
+<img src="https://s03.s3c.es/imag/_v0/770x420/4/f/1/Planta-manos-tierra-iStock.jpg">
+
 ## 2. Resumen del proyecto
 
 ¿Qué tengo que hacer exactamente? En este proyecto tendrás que construir una
