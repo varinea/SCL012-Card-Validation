@@ -21,7 +21,7 @@ function luhnCheck(){  //Aqui veremos si la información entregada es real, asi 
   // g hace que todo sea global y para eso necesito test  para probar ccNum || (o) ccNum quiero que su longitud sea mayor a 16
   //Con la expresion  !   estoy revertir la logica, si no tengo numeros se rechazara.
    //   busque estas expresiones en  https://regex101.com/
-     return false;   
+     return alert("Ups! Tarjeta no válida, intenta nuevamente");   
   }   
 
   if(ccNum.length === 15){  
@@ -50,7 +50,7 @@ function luhnCheck(){  //Aqui veremos si la información entregada es real, asi 
   }
   
   if(sum % 10 === 0){
-     validCard = true; 
+     validCard = alert("Tarjeta válida, puedes seguir disfrutando de la página");; 
   }
    
 
@@ -61,9 +61,8 @@ function whatCard(){
    
 }
 
-document.getElementById("submitBtn").addEventListener("click", function(){
-   document.getElementById("resultDiv").innerHTML = luhnCheck();
-}, false);
+document.getElementById("submitBtn").addEventListener("click", function(){luhnCheck();
+});
 
 
 
