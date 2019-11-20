@@ -16,13 +16,13 @@ function luhnCheck(){  //Aqui veremos si la información entregada es real, asi 
   
   //Ahora paso a verificar si hay datos validos utilizando if
 
-  if((!/\d{15,16}/g.test(ccNum)) || (ccNum.length > 16)){
+  if((!/\d{15,16}(~\W[a-zA-Z])*$/g.test(ccNum)) || (ccNum.length > 16)){
   //  \d{15,16}/  aqui quiero un digito de 15,16 de longitud  
   // g hace que todo sea global y para eso necesito test  para probar ccNum || (o) ccNum quiero que su longitud sea mayor a 16
   //Con la expresion  !   estoy revertir la logica, si no tengo numeros se rechazara.
    //   busque estas expresiones en  https://regex101.com/
-     return false;  
-  }
+     return false;   
+  }   
 
   if(ccNum.length === 15){  
      for(var i = ccNumSplit.length-1; i>=0; i--){  //en for coloco -- para que comienze por la derecha 
@@ -54,6 +54,22 @@ function luhnCheck(){  //Aqui veremos si la información entregada es real, asi 
   }
    
 
+  return validCard;
+}
+
+function whatCard(){
+   
+}
+
+document.getElementById("submitBtn").addEventListener("click", function(){
+   document.getElementById("resultDiv").innerHTML = luhnCheck();
+}, false);
+
+
+
+
+
+/*
      if(validCard === true){ 
         console.log(validCard);
 
@@ -66,8 +82,9 @@ function luhnCheck(){  //Aqui veremos si la información entregada es real, asi 
 
 document.getElementById("submitBtn").addEventListener("click", function(){
    
-luhnCheck()
+luhnCheck()});
+
    //Evento DOM Aqui se le da la respuesta al usuario despues de que haya apretado el boton para saber la respuesta
    //document.getElementById("resultDiv").innerHTML = luhnCheck(); 
-});
 
+*/
