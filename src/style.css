@@ -1,3 +1,6 @@
+@import url("fontawesome-all.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
+
 
 	html, body, div, span, applet, object,
 	iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -59,7 +62,7 @@
 		padding: 0;
 	}
 
-	input, select, textarea {
+	input, textarea {
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		-ms-appearance: none;
@@ -86,7 +89,7 @@ width: 100%;
 		background: #f5f5f5;
 	}
 
-	body, input, select, textarea {
+	body, input, textarea {
 		color: #777;
 		font-family: "Source Sans Pro", sans-serif;
 		font-size: 16pt;
@@ -572,10 +575,7 @@ width: 100%;
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
-	select {
-		height: 3em;
-	}
-
+	
 	textarea {
 		padding: 0.75em 1em;
 	}
@@ -1698,7 +1698,7 @@ width: 100%;
 
 		/* Basic */
 
-			body, input, select, textarea {
+			body, input, textarea {
 				font-size: 13pt;
 			}
 
