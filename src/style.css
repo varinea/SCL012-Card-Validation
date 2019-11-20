@@ -170,21 +170,8 @@ width: 100%;
 		top: 0.5em;
 	}
 
-	sup {
-		font-size: 0.8em;
-		position: relative;
-		top: -0.5em;
-	}
 
-	hr {
-		border: 0;
-		border-bottom: solid 2px #e5e5e5;
-		margin: 2em 0;
-	}
-
-		hr.major {
-			margin: 3em 0;
-		}
+	
 
 	blockquote {
 		border-left: solid 4px #e5e5e5;
@@ -1534,6 +1521,37 @@ width: 100%;
 				color: #666 !important;
 			}
 
+
+/* Banner IMAGEN DE FONDOOO NOSOTROS */
+
+    #banner2 {
+				background-attachment: scroll,							fixed;
+				background-color: #666;
+				background-image: url("img/overlay.png"), url("img/background.png");
+				background-position: top left,						center center;
+				background-repeat: repeat,							no-repeat;
+				background-size: auto,							cover;
+				color: #fff;
+				padding: 12em 0 10em 0;
+				text-align: center;
+			}
+
+			#banner2 h2 {
+				font-size: 3.5em;
+				line-height: 1em;
+				margin: 0 0 0.5em 0;
+				padding: 0;
+			}
+	
+			#banner2 p {
+				font-size: 1.25em;
+				margin-bottom: 1.75em;
+			}
+			#banner2 h2, #banner h3, #banner h4, #banner h5, #banner h6 {
+				color: #fff;
+			}
+
+		
 /* Main */
 
 	#main {
