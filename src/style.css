@@ -683,15 +683,6 @@ width: 100%;
 		opacity: 1.0;
 	}
 
-	::-moz-placeholder {
-		color: #999 !important;
-		opacity: 1.0;
-	}
-
-	:-ms-input-placeholder {
-		color: #999 !important;
-		opacity: 1.0;
-	}
 
 /* Box */
 
