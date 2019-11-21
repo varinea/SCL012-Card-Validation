@@ -60,23 +60,16 @@
 	}
 
 	a {
-		-moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #e89980;
 		text-decoration: none;
 	}
 
-	
 
 	strong, b {
 		color: #646464;
 		font-weight: 400;
 	}
-
-
 
 	p {
 		margin: 0 0 2em 0;
@@ -171,10 +164,6 @@
 			margin-top: 0;
 			margin-left: -2em;
 		}
-
-			
-			
-
 			
 /* Container */
 
@@ -209,8 +198,6 @@
 		padding: 1em 0;
 		text-align: center;
 	}
-
-	
 
 
 /* Form */
