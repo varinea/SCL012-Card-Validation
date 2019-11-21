@@ -16,7 +16,7 @@ function luhnCheck(){  //Aqui veremos si la información entregada es real, asi 
   
   //Ahora paso a verificar si hay datos validos utilizando if
 
-  if((!/\d{15,16}(~\W[a-zA-Z])*$/g.test(ccNum)) || (ccNum.length > 16)){
+  if((!/\d{15,16}(~\W[a-zA-Z])*$/.test(ccNum)) || (ccNum.length > 16)){
   //  \d{15,16}/  aqui quiero un digito de 15,16 de longitud  
   // g hace que todo sea global y para eso necesito test  para probar ccNum || (o) ccNum quiero que su longitud sea mayor a 16
   //Con la expresion  !   estoy revertir la logica, si no tengo numeros se rechazara.
