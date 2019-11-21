@@ -4,7 +4,7 @@
 # Tabla de Contenido
 
 * [1. Presentación](#1-presentación)
-* [2. Búsqueda de un cliente](#2-búsqueda)
+* [2. Búsqueda de un cliente y organización](#2-búsqueda)
 * [3. Entrevista a cliente](#3-entrevista)
 * [4. Buscando a Usuario](#4-Investigacion)
 * [5. Entrevistas a Usuarios](#5-entrevista)
@@ -21,7 +21,11 @@
 
 En este proyecto se solicitaba crear una página web donde se pudiera dar uso a la validación de tarjeta de crédito, proceso el cual debía ser creado a través de javascript basado en el algoritmo luhn.
 
-## 2. Búsqueda de un cliente
+## 2. Búsqueda de un cliente y organización
+
+Cree un horario en Trello para mantener un margen de tiempo.
+
+[Trello](https://trello.com/b/kfwnAqeh/card-validation)
 
 Comencé a buscar por Instagram páginas de ventas de plantas, cree un pequeño listado con el cúal me base para determinar a mi usuario.
 
@@ -116,7 +120,12 @@ Lamentablemente por error no pude guardar los audios de mis tres entrevistados, 
 -  Información de las plantas que se les está vendiendo
 -  Buenos precios.
 
-Con estos datos y buscando en internet páginas sobre la venta de plantas comencé a crear los primeros prototipos.
+
+Entonces el usuario a tomar era:
+
+>  Yo como usuaria quisiera que la página me entregue diferentes tipos de plantas e información sobre ellas.
+
+Dado esto comencé buscando en internet páginas sobre la venta de plantas, hacer observaciónes sobre el diseño, como debía ser, como le gusta a los usuarios en general, de este modo pase a la etapa de los prototipos.
 
 ## 6. Prototipos, Figma.
 
@@ -124,13 +133,20 @@ Con estos datos y buscando en internet páginas sobre la venta de plantas comenc
 
 ![Prototipo1](src/img_readme/prototipo1.jpg)
 
+Protitipo bastante sencillo que me ayudo a crear la estructura para la página.
+
 > [Prototipo 2](https://www.figma.com/file/PH94TPFCOGsO2k6DdCirJA/FioreDeco-Prototipo-2?node-id=0%3A1)
 
 ![Prototipo2](src/img_readme/prototipo2.jpg)
 
-> [Prototipo2](https://www.figma.com/file/PH94TPFCOGsO2k6DdCirJA/FioreDeco-Prototipo-2?node-id=0%3A1)
-
 ![Prototipo2_2](src/img_readme/prototipo2_2.jpg)
+
+
+### Análisis 
+
+- Guiandome por los videos grabados en Loom
+
+En los usuarios note dificultades al momento de querer obtener la información ya que era poco clara, sentían que la página introductoria no era necesaria, y no era del completo agrado la sección catálogo.
 
 
 > [Prototipo 3](https://www.figma.com/proto/O7es0OfwR82x2zJGGFQrCQ/prototipo-3?node-id=3%3A18&scaling=min-zoom)
@@ -139,22 +155,36 @@ Con estos datos y buscando en internet páginas sobre la venta de plantas comenc
 
 ![Prot3](src/img_readme/prot3_3.jpg)
 
+### Análisis
+
+Se lograron hacer buenos cambios en el diseño, basándose en lo que solicitaron anteriormente los usuarios, se agregaron más páginas con más productos y se creó una selección de productos.
+
+Problemas principales vistos en los usuarios, la parte de texto introductorio lo clickean  y no debía ser así.
+
 
 > [Prototipo 4](https://www.figma.com/proto/O7es0OfwR82x2zJGGFQrCQ/prototipo-3?scaling=min-zoom)
 
 ![Prot4](src/img_readme/prot4.jpg)
 ![Prot4](src/img_readme/prot4_4.jpg)
 
+### Análisis
+
+ Este prototipo no presentaba grandes problemas, pero los usuarios presentaban problemas con el encabezado, el menú se siente fuera del diseño.
+
 > [Prototipo 5](https://www.figma.com/proto/O7es0OfwR82x2zJGGFQrCQ/prototipo-3?scaling=min-zoom&node-id=3%3A18)
 
 ![Prot5](src/img_readme/prot5.jpg)
 ![Prot5](src/img_readme/prot5_5.jpg)
 
+### Análisis
+
+Diseño final, se sigue teniendo la base del prototipo anterior, se mejoró el diseño, y se crearon botones específicos, se facilitó el acceso a las plantas y las compras,se mejoraron las imágenes y se agregaron descuentos.
+
+
 
 ## 7. Testeo con Usuario
 
-Para llegar a estos diseños se realizaron varias entrevistas a diferentes usuarios.
-
+Todos los análisis fueron creados a base de estos videos y otras entrevistas.
 
 [Testeo 1](https://www.loom.com/share/66121bbbbc2b4c91b10feebd896008b1)
 
@@ -166,10 +196,10 @@ Para llegar a estos diseños se realizaron varias entrevistas a diferentes usuar
 
 - Observaciones
 
-A varios usuarios les interesaba el cuidado de las plantas, como podrían tener, ofertas, los precios de los productos, algunos notaron faltas de ortografías y modismos nacionales, los cuales ayudaron a la mejora de la página.
+En general a varios usuarios les interesaba el cuidado de las plantas, tener ofertas en los precios de los productos, algunos notaron faltas de ortografías, modismos nacionales, los cuales ayudaron a la mejora de la página.
 
+No tuvieron gran dificultad de usabilidad, más la mayoría de los problemas dados eran por errores en Figma, ya que no tenía interacción en algunas partes.
 
-No tuvieron gran dificultad de usabilidad, más la mayoría de los problemas dados eran por errores en mi Figma, ya que no tenía interacción en algunas partes.
 
 ## Diseño ##
 
@@ -183,9 +213,6 @@ No tuvieron gran dificultad de usabilidad, más la mayoría de los problemas dad
 
 > Sin negro para que no dificulte la lectura.
 
-> Colores basado en paleta de colores de plantas.
-
-
 ## 8. Investigación JavaScript
 
 Para lograr desarrollar la parte FrontEnd me base mucho en tutoriales, primero que nada hice un esquema del orden a como debería desarrollar JS,
@@ -198,23 +225,41 @@ Teniendo la estructura del diseño, fui a la par con Figma para crear la página
 
 ## HTML 
 
-> Index.html  Página principal, única con header diferente a los demás.
+> index.html  
 
-> plantas.html  Página secundaria que guarda las cuatro categorías principales de los     productos
+Página principal, única con header diferente a los demás.
 
-> interior.html  Página de plantas interior del hogar.
+> plantas.html  
 
-> exterior.html  Página para productos de plantas exterior, para el jardín.
+Página secundaria que guarda las cuatro categorías principales de los productos
 
-> hierba.html  Página de productos de hierbas.
+> interior.html  
 
-> flores.htmls  Productos Flores.
+Página de plantas interior del hogar.
 
-> compra.html Página donde el usuario puede validar su tarjeta de crédito, única con JS
+> exterior.html  
 
-> nosotros.html  Historia sobre la venta de plantas.
+Página para productos de plantas exterior, para el jardín.
 
-> cuidalas.htmls  Página con consejos de como cuidar las plantas.
+> hierba.html  
+
+Página de productos de hierbas.
+
+> flores.htmls  
+
+Productos Flores.
+
+> compra.html 
+
+Página donde el usuario puede validar su tarjeta de crédito. Única con JS.
+
+> nosotros.html  
+
+Historia sobre la venta de plantas.
+
+> cuidalas.htmls  
+
+Página con consejos de como cuidar las plantas.
 
 ## CSS
 
@@ -222,10 +267,9 @@ Teniendo la estructura del diseño, fui a la par con Figma para crear la página
 
 ## Javascript
 
-> validator.js   Único funcional en la página.
+> validator.js  (Único funcional en la página.)
 
->index. Js
-
+>index.js
 
 ## 10. Término de página
 
@@ -238,7 +282,7 @@ El cliente no volvio a contestar los mensajes enviados, asi que decidi usar mi p
 
 ### ALEGRÍAS
 
-Aun con el vergonzoso resultado y que no se haya logrado realizar al 100% la página me siento bastante satisfecha, ya que fueron dos semanas bastante intensas y dado el caos en el país se me hizo bastante difícil el concentrarme en lo que estaba creando, aun asi logre sacarlo adelante.
+Aun con el vergonzoso resultado y que no se haya logrado realizar al 100% la página me siento bastante satisfecha, ya que fueron dos semanas bastante intensas y dado el caos en el país se me hizo bastante difícil el concentrarme en lo que estaba creando,aun asi logre sacarlo adelante.
 
 
 # Página Final
@@ -246,9 +290,13 @@ Aun con el vergonzoso resultado y que no se haya logrado realizar al 100% la pá
 [FioreDeco página finalizada](https://varinea.github.io/SCL012-Card-Validation/src/index.html)
 
 
+![Prot4](src/img_readme/final1.jpg)
+![Prot4](src/img_readme/final2.jpg)
+![Prot4](src/img_readme/final3.jpg)
 
 
 
+## Gracias por leer Readme FioreDeco.
 
 
 
