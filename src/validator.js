@@ -3,7 +3,6 @@ var userNumInput = document.getElementById("userNum");
 function getUserInput(){ 
    return userNumInput.value;   //Con input el tomo el valor que el usuario me da
 }
-
 //una vez obtenido el la númeracion de la tarjeta de credito.
 function luhnCheck(){  //Aqui veremos si la información entregada es real, asi que se crea un boolano
   var ccNum = getUserInput() //Se toma la numeracion de la CreditCard
@@ -63,9 +62,6 @@ function whatCard(){
 
 document.getElementById("submitBtn").addEventListener("click", function(){luhnCheck();
 });
-
-
-
 
 
 /*

@@ -4,80 +4,78 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>FioreDeco-Cuidados</title>
+	<title>FioreDeco-Compra</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="style.css" />
 </head>
 
-<body class="is-preload">
-    <div id="page-wrapper">
+<body >
+	<div id="page-wrapper">
 
-		<!-- Header -->
+	<!-- Header -->
+	<header id="header">
+		<h1><a href="index.html">FIOREDECO</a></h1>
+		<nav id="nav">
+			<ul>
+				<li>
+					<a href="index.html">Home</a>
+					<a href="plantas.html">Plantas</a>
+					<a href="nosotros.html">Nosotros</a>
+					<a href="cuidalas.html">Cuidados</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+<!-- Main -->
+<section id="main" class="container medium">
+	<header>
+			<h2>Validación de Tarjeta</h2>
+			<p>Para poder realizar una compra en nuestra tienda debes validar tu tarjeta de crédito primero</p>
+	</header>
+
+    <!--  JAVASCRIPT  -->
+
+	<div class="box">
+		<form method="post" action="#"></form>
+		    <div class="row gtr-50 gtr-uniform">
+				<div class="col-12">
+					<input type="text" name="subject"  id="userNum" placeholder="Número de Tarjeta" />
+                      <!--  lugar donde el usuario me ingresara los numeros  -->
+				</div>
+
+				<div class="col-6 col-12-mobilep">
+					<input type="text" name="name" id="name" value="" placeholder="Fecha de Expiración" />
+				</div>
+				<div class="col-6 col-12-mobilep">
+					<input type="email" name="email" id="email" value="" placeholder="cvv" />
+				</div>
+
+					<div class="col-12">
+					<input type="submit" value="VALIDAR" id="submitBtn" /></div>
+
+			</div>
+			<!--  boton para que el usuario vea su repsuesta  -->
+		 </form>
+	</div>
+
+</section>
+
+	<!-- Footer -->
+	<footer id="footer">
 		
-    <header id="header">
-            <h1><a href="index.html">FIOREDECO</a></h1>
-            <nav id="nav">
-                <ul>
-                  <li>
-					 <a href="index.html">Home</a>
-                     <a href="plantas.html">Plantas</a>
-                     <a href="nosotros.html">Nosotros</a>
-                     <a href="cuidalas.html">Cuidados</a>
-                  </li>
-                </ul>
-            </nav>
-    </header>
-
-
-    	<!-- Main -->
-		<section id="main" class="container">
-                <header>
-                    <h2>Antes de Comprar, por favor válida tu tarjeta</h2>
-                        <p>Esto es solo de rutina, verificaremos que tu tarjeta de crédito o efectivo sean reales</p>
-                </header>
-
-
- <div class="box">
-    <form method="POST" action="#"></form>
-     <div class="row gtr-50 gtr-uniform">
-            
-            <div class=" col-12">
-                <input type="text" name="subjet" id="usernum" value="" placeholder="Número de Tarjeta">
-            </div>
-            
-            <div class=" col-6 col-12 col-mobilep">
-                <input type="text" name="name" id="name" value="" placeholder="Fecha de Expiración">
-            </div>
-
-            <div class=" col-6 col-12 col-mobilep">
-                <input type="email" name="email" id="email" value="" placeholder="Cvv">
-                </div>
-
-            <div class=" col-12">
-                <input type="submit" value="Validar" id="submit" >
-            </div>
-           
-     </div>
-    </form>
-    </div>
-
-
-<!-- Footer -->
-<footer id="footer">
 		<ul class="copyright">
 			<li> <b>Información de Contacto </b> <br> E-mail: ventas@FloresDeco.cl <br> Teléfono: 9-83607744</li>
 			<li><b>Dirección:</b> <br> Camino el Mariscal 1970, San Bernardo, <br> Región Metropolitana</li>
 			<li><b>Horario:</b> <br> Lunes a Viernes de 9:00 am a 17:00 pm <br> Sábado de 9:00 am a 14:00 pm
-			</li>
 		</ul>
 	</footer>
+	</div>
 
-
-
-<script> src="validator.js" </script>
-<script> src="index.js" </script>
-
+	<!-- Scripts -->
+	
+	<script src="validator.js"></script>
 
 </body>
 
