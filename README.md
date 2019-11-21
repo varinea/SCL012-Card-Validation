@@ -4,15 +4,15 @@
 # Tabla de Contenido
 
 * [1. Presentación](#1-presentación)
-* [2. Búsqueda de un cliente](#2-Búsqueda)
-* [3. Entrevista a cliente](#3-Entrevista)
+* [2. Búsqueda de un cliente](#2-búsqueda)
+* [3. Entrevista a cliente](#3-entrevista)
 * [4. Buscando a Usuario](#4-Investigacion)
-* [5. Entrevistas a Usuarios](#5-Entrevista)
-* [6. Prototipos, Figma](#6-Prototiposdealta)
-* [7. Testeo con Usuario](#8-Testeo)
-* [8. Investigación JavaScript](#8-Investigacion)
-* [9. Html y Css](#9-HC)
-* [10. Término de página](#-Término)
+* [5. Entrevistas a Usuarios](#5-entrevista)
+* [6. Prototipos, Figma](#6-prototiposdealta)
+* [7. Testeo con Usuario](#8-iesteo)
+* [8. Investigación JavaScript](#8-investigacion)
+* [9. Html y Css](#9-hC)
+* [10. Término de página](#-término)
 
 
 
