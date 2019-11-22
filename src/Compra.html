@@ -1,83 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>FioreDeco-Compra</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FioreDeco-Compra</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
-<body >
-	<div id="page-wrapper">
+<body>
+<div id="page-wrapper">
 
-	<!-- Header -->
-	<header id="header">
-		<h1><a href="index.html">FIOREDECO</a></h1>
-		<nav id="nav">
-			<ul>
-				<li>
-					<a href="index.html">Home</a>
-					<a href="plantas.html">Plantas</a>
-					<a href="nosotros.html">Nosotros</a>
-					<a href="cuidalas.html">Cuidados</a>
-				</li>
-			</ul>
-		</nav>
-	</header>
+    <header id="header"> 
+        <h1><a href="index.html">FIOREDECO</a></h1>
+        <nav id="nav">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                    <a href="plantas.html">Home</a>
+                    <a href="nosotros.html">Home</a>
+                    <a href="cuidalas.html">Home</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
-<!-- Main -->
-<section id="main" class="container medium">
-	<header>
-			<h2>Validación de Tarjeta</h2>
-			<p>Para poder realizar una compra en nuestra tienda debes validar tu tarjeta de crédito primero</p>
-	</header>
+    <section id="main" class="container medium">
+        <header>
+            <h2>Validación de Tarjeta222222</h2>
+            <p>Para poder realizar una compra en nuestra tienda</p>
+        </header>
 
-    <!--  JAVASCRIPT  -->
+        <div class="box">
+            <form method="POST" action="#"></form>
+            <div class="row gtr-50 gtr-uniform">
 
-	<div class="box">
-		<form method="post" action="#"></form>
-		    <div class="row gtr-50 gtr-uniform">
+                <div class="col-6 col 12">
+                    <input type="text" id="name" placeholder="Fecha de Expiración"/>
+                </div>
 
-				<div class="col-12">
-					<input type="text" name="subject"  id="userNum" placeholder="Número de Tarjeta" />
-                      <!--  lugar donde el usuario me ingresara los numeros  -->
-				</div>
+                <div class=" col-12">
+                     <input type="text" id="userNum" placeholder="Número de Tarjeta"/>
+                </div>
 
-				<div class="col-6">
-					<input type="text" name="name" id="name" value="" placeholder="Fecha de Expiración" />
-				</div>
+                <div class="col 12">
+                        <input type="email" id="email" placeholder="cvv"/>
+                </div>
 
-				<div class="col-6">
-					<input type="email" name="email" id="email" value="" placeholder="cvv" />
-				</div>
-					
-				<div class="col-12">
-					<input type="submit" value="VALIDAR" id="submitBtn" /></div>
-			    </div>
-			<!--  boton para que el usuario vea su repsuesta  -->
-		 </form>
-	</div>
+                <div class="col 12">
+                        <input type="submit" value="VALIDAR" id="submitBtn" placeholder="CVV"/>
+                </div>
 
-</section>
+            </div>
+            
+        </div>
 
-	<!-- Footer -->
-	<footer id="footer">
-		
-		<ul class="copyright">
-			<li> <b>Información de Contacto </b> <br> E-mail: ventas@FloresDeco.cl <br> Teléfono: 9-83607744</li>
-			<li><b>Dirección:</b> <br> Camino el Mariscal 1970, San Bernardo, <br> Región Metropolitana</li>
-			<li><b>Horario:</b> <br> Lunes a Viernes de 9:00 am a 17:00 pm <br> Sábado de 9:00 am a 14:00 pm
-		</ul>
-	</footer>
-	</div>
+    </section>
+     
 
-	<!-- Scripts -->
-	
-	<script src="validator.js"></script>
+<script src="validator.js"></script>
 
+
+    
 </body>
-
 </html>
