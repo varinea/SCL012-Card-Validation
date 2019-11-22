@@ -192,7 +192,9 @@ Todos los análisis fueron creados a base de estos videos y otras entrevistas.
 
 [Testeo 3](https://www.loom.com/share/66121bbbbc2b4c91b10feebd896008b1)
 
-[Testeo 4](https://www.loom.com/share/80651c3f08a5400fb79af41de519ba3c)
+[Testeo 4](https://www.loom.com/share/ccca238624124e939a78567dc08b3c3a)
+
+[Testeo 5](https://www.loom.com/share/80651c3f08a5400fb79af41de519ba3c)
 
 - Observaciones
 
