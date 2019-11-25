@@ -13,7 +13,7 @@ function luhnCheck(){  //Aqui veremos si la información entregada es real, asi 
   var finalArry = undefined; //
   var validCard = false;
   
-  //Ahora paso a verificar si hay datos validos utilizando if
+  //Este if me sirve para saber si han colocado */!" letras, etc. y pasara a ser invalida
 
   if((!/\d{15,16}(~\W[a-zA-Z])*$/g.test(ccNum)) || (ccNum.length > 16)){
   //  \d{15,16}/  aqui quiero un digito de 15,16 de longitud  
@@ -23,7 +23,9 @@ function luhnCheck(){  //Aqui veremos si la información entregada es real, asi 
      return alert("Ups! Tarjeta no válida, intenta nuevamente");   
   }   
 
-  if(ccNum.length === 15){  
+
+  //Este if me sirve para saber si han colocado */!" letras, etc. y pasara a ser invalida
+  if(ccNum.length === 15){  // master card
      for(var i = ccNumSplit.length-1; i>=0; i--){  //en for coloco -- para que comienze por la derecha 
         if(i % 2 === 0){ //Aqui le digo con % si el modulo 2 es igual a 0
            singleNums.push(ccNumSplit[i]); //El método push() añade uno o más elementos al final de un array y devuelve la nueva longitud del array.
@@ -31,7 +33,7 @@ function luhnCheck(){  //Aqui veremos si la información entregada es real, asi 
            doubleNums.push((ccNumSplit[i] * 2).toString()); // toString para devolver una cadena que representa al objeto. 
         }
      }
-  }else if(ccNum.length === 16){
+  }else if(ccNum.length === 16){ // visa, otras-
      for(var i = ccNumSplit.length-1; i>=0; i--){
         if(i % 2 !== 0){ //AQUI OBTENGO LA POSICION PAR DE CC
            singleNums.push(ccNumSplit[i]);
@@ -56,9 +58,6 @@ function luhnCheck(){  //Aqui veremos si la información entregada es real, asi 
   return validCard;
 }
 
-function whatCard(){
-   
-}
 
 document.getElementById("submitBtn").addEventListener("click", function(){luhnCheck();
 });
